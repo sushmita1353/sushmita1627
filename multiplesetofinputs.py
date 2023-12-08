@@ -8,9 +8,9 @@ def quadratic_temperature_model(time,a,b,c):
 
 #List of coefficients sets(a,b,c)
 coefficients_list={
-    (0.02,1.5,20),
-    (0.01,2,10),
-    (0.03,1,25),
+    (0.06,4.5,40),
+    (0.04,7,16),
+    (0.05,4,26),
 }
 #Generate time values from 0 to 50 with step1
 time_values=np.arange(0,51,1)
