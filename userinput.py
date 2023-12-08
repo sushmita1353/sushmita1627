@@ -16,9 +16,9 @@ y1 = a*x**2 + b*x + c
 plt.plot(x, y1, label=f'{a}x^2 + {b}x + {c}')
 
 # Hard-coded coefficients for the second function
-a = 1
-b = -3
-c = 2
+a = 4
+b = -2
+c = 6
 
 # Calculate y values for the second function
 y2 = a*x**2 + b*x + c
